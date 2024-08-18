@@ -56,7 +56,7 @@ while tries>0:
         match_percentage = score_value/len(word)
         print(f"NOPE!!! {tries} tries left.")
         match_percentage = round((score_value / len(word)) * 100,2)
-        print(f'Your word matches {match_percentage} percentage with the word. ')
+        print(f'Your word matches {match_percentage} percentage with the word. \n', '-'*50)
 
 if tries == 0:
     print("Sorry, you ran out of chances. The word was:", word)
