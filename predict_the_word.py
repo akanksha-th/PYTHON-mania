@@ -38,8 +38,9 @@ def match_score(word, user_word):
             score += 1
     return score
 
+print('WELCOME TO WORD-MANIA!!')
 while tries>0:
-    user_word = input("What could be the word chosen by the computer? Write your guess. ")
+    user_word = input("Write your guess. ")
     if user_word==word:
         print("Yayy! You guessed it right!")
         tries = -1
