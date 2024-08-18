@@ -48,7 +48,7 @@ while tries>0:
         print("Seems like you need a hint. ")
         first = word[0]
         last = word[-1]
-        print(f"The first letter is {first} and the last letter is {last} and the word has {len(word)} letters. ")
+        print(f"The first letter is {first} and the last letter is {last} and the word has {len(word)} letters. \n", '-'*50)
         tries -= 1
     else:
         tries -= 1
